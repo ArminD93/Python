@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>83f16728-0569-4f00-a623-f5e44f59274f</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>mail.py</StartupFile>
+    <ProjectGuid>2781a0d7-d2bd-4a9d-b5e1-626983a56e85</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>platform_info.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>email</Name>
-    <RootNamespace>email</RootNamespace>
+    <Name>platform_info</Name>
+    <RootNamespace>platform_info</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="mail.py" />
+    <Compile Include="platform_info.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
