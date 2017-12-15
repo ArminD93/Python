@@ -17,6 +17,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "system_time_client", "syste
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "log_to_ssh", "log_to_ssh\log_to_ssh.pyproj", "{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "directories", "directories\directories.pyproj", "{237D7B07-A076-40D2-94CE-4CFEA5CCE1A8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "directory_tree", "directory_tree\directory_tree.pyproj", "{A47B68FC-71B0-443B-AE14-EC7AC51ED2CF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "quick_sort", "quick_sort\quick_sort.pyproj", "{4DE96E5A-EE2F-420F-AB12-1CE673CC771C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,12 @@ Global
 		{224A0A2B-163B-429E-A6AF-F380D7DCFBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237D7B07-A076-40D2-94CE-4CFEA5CCE1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237D7B07-A076-40D2-94CE-4CFEA5CCE1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47B68FC-71B0-443B-AE14-EC7AC51ED2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47B68FC-71B0-443B-AE14-EC7AC51ED2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE96E5A-EE2F-420F-AB12-1CE673CC771C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE96E5A-EE2F-420F-AB12-1CE673CC771C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
