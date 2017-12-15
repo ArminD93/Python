@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "email", "email\email.pyproj", "{83F16728-0569-4F00-A623-F5E44F59274F}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "platform_info", "platform_info\platform_info.pyproj", "{2781A0D7-D2BD-4A9D-B5E1-626983A56E85}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "easy_socket_app", "easy_socket_app\easy_socket_app.pyproj", "{3A19D1D2-A6D4-449E-886C-1764614F4C39}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "calendar", "calendar\calendar.pyproj", "{0D0C0A25-65A7-4470-BB61-C90EF804605B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "system_time_server", "system_time_server\system_time_server.pyproj", "{2C021B1D-15D9-4603-82DC-D636A6855AF3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "system_time_client", "system_time_client\system_time_client.pyproj", "{224A0A2B-163B-429E-A6AF-F380D7DCFBEC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "log_to_ssh", "log_to_ssh\log_to_ssh.pyproj", "{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,14 @@ Global
 		{2781A0D7-D2BD-4A9D-B5E1-626983A56E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A19D1D2-A6D4-449E-886C-1764614F4C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A19D1D2-A6D4-449E-886C-1764614F4C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0C0A25-65A7-4470-BB61-C90EF804605B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0C0A25-65A7-4470-BB61-C90EF804605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C021B1D-15D9-4603-82DC-D636A6855AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C021B1D-15D9-4603-82DC-D636A6855AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224A0A2B-163B-429E-A6AF-F380D7DCFBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224A0A2B-163B-429E-A6AF-F380D7DCFBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F88E63E-DF55-4DFA-8CAE-158D2066D5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
